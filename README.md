@@ -34,12 +34,14 @@ This project is a **real-time AI-based surveillance system** that uses computer 
 ## 🖼️ Screenshots  
 
 ### Main Detection Window  
-![Detection Screenshot](assets/Screenshot 2025-09-08 195137.png)  
+![Detection Screenshot](https://github.com/Ayushanupam7/Mask-Detction/blob/main/assets/Screenshot%202025-09-08%20195137.png) 
 
 ### Info Board  
-![Info Board](screenshots/infoboard.png)  
+![Info Board](https://github.com/Ayushanupam7/Mask-Detction/blob/main/assets/info.png)  
 
-*(Add your actual screenshots in a `screenshots/` folder inside the project repo.)*  
+*(Place your actual screenshots in the `screenshots/` folder inside the project repository.  
+For example, you can capture images when a mask is detected or not detected, and also while recording is active.)*
+
 
 ---
 
@@ -69,8 +71,8 @@ This project is a **real-time AI-based surveillance system** that uses computer 
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/smart-mask-detection.git
-   cd smart-mask-detection
+   git clone https://github.com/Ayushanupam7/Mask-Detction.git
+   cd mask-detection
    ```
 2. Install dependencies:
 ```bash
@@ -87,7 +89,7 @@ Place the required Caffe model files inside their respective folders:
 
 Run the program:
 ```bash
-python main.py
+python mask_detection_simple.py
 ```
 
 ## Keyboard Shortcuts:
