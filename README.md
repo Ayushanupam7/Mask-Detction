@@ -43,5 +43,78 @@ This project is a **real-time AI-based surveillance system** that uses computer 
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
 
+```text
+📂 Smart-Mask-Detection/
+ ┣ 📂 face_detector
+ ┃ ┣ deploy.prototxt
+ ┃ ┗ res10_300x300_ssd_iter_140000.caffemodel
+ ┣ 📂 age_gender
+ ┃ ┣ age_deploy.prototxt
+ ┃ ┣ age_net.caffemodel
+ ┃ ┣ gender_deploy.prototxt
+ ┃ ┗ gender_net.caffemodel
+ ┣ 📂 object_detector
+ ┃ ┣ MobileNetSSD_deploy.prototxt
+ ┃ ┗ MobileNetSSD_deploy.caffemodel
+ ┣ 📂 recordings
+ ┣ 📂 snapshots
+ ┣ main.py
+ ┣ README.md
+ ┗ requirements.txt
+```
+
+## ⚙️ Installation  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/smart-mask-detection.git
+   cd smart-mask-detection
+   ```
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Place the required Caffe model files inside their respective folders:
+
+- face_detector/
+- age_gender/
+- object_detector/
+
+## ▶️ Usage
+
+Run the program:
+```bash
+python main.py
+```
+
+## Keyboard Shortcuts:
+
+- q → Quit
+- r → Start/Stop manual recording
+- s → Switch camera via menu
+- c → Cycle through available cameras
+
+## 📦 Requirements
+
+- Python 3.7+
+- OpenCV
+- NumPy
+- Pillow
+
+## Install with:
+```bash
+pip install opencv-python numpy pillow
+```
+
+## 🛠️ Future Enhancements
+
+- Improve mask detection using a deep learning model
+- Add attendance logging system
+- Enable remote monitoring (Flask/Streamlit dashboard)
+  
+## 📝 License
+
+This project is released under the MIT License.
