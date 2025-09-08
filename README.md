@@ -10,9 +10,9 @@ This project is a **real-time AI-based surveillance system** that uses computer 
   - Person details (Mask/No Mask, Gender, Age)  
   - Current **Date, Time, and Day**  
 - Show a scrolling **warning banner** if someone is not wearing a mask  
-- Save **snapshots** every 5 seconds when a person is without a mask  
+- Save **snapshots** every 10 seconds when a person is without a mask  
 - Play a **beep sound** when someone wears a mask  
-- Start **automatic recording** after 5 seconds of continuous no-mask detection  
+- Start **automatic recording** after 10 seconds of continuous no-mask detection  
 - Allow **manual recording toggle** using the `r` key  
 
 ---
