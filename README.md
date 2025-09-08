@@ -65,7 +65,7 @@ For example, you can capture images when a mask is detected or not detected, and
  ┃ ┗ MobileNetSSD_deploy.caffemodel
  ┣ 📂 recordings
  ┣ 📂 snapshots
- ┣ main.py
+ ┣ mask_detection_simple.py
  ┣ README.md
  ┗ requirements.txt
 ```
