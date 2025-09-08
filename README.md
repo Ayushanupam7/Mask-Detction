@@ -33,8 +33,11 @@ This project is a **real-time AI-based surveillance system** that uses computer 
 
 ## 🖼️ Screenshots  
 
-### Main Detection Window  
+### Main Detection Window ( Not Wearing Mask ) 
 ![Detection Screenshot](https://github.com/Ayushanupam7/Mask-Detction/blob/main/assets/Screenshot%202025-09-08%20195137.png) 
+
+### Main Detection Window ( Wearing Mask ) 
+![Detection Screenshot](https://github.com/Ayushanupam7/Mask-Detction/blob/main/assets/masked.png) 
 
 ### Info Board  
 ![Info Board](https://github.com/Ayushanupam7/Mask-Detction/blob/main/assets/info.png)  
