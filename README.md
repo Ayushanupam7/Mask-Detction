@@ -34,7 +34,7 @@ This project is a **real-time AI-based surveillance system** that uses computer 
 ## 🖼️ Screenshots  
 
 ### Main Detection Window  
-![Detection Screenshot](screenshots/detection.png)  
+![Detection Screenshot](assets/Screenshot 2025-09-08 195137.png)  
 
 ### Info Board  
 ![Info Board](screenshots/infoboard.png)  
