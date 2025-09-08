@@ -24,8 +24,8 @@ This project is a **real-time AI-based surveillance system** that uses computer 
 - ✅ Age & Gender Estimation (pre-trained Caffe models)  
 - ✅ Object Detection (MobileNet SSD)  
 - ✅ Info Board (Date, Time, Day, People & Objects summary)  
-- ✅ Auto Snapshots (No Mask → every 5 seconds)  
-- ✅ Auto Recording (after 5s continuous No Mask)  
+- ✅ Auto Snapshots (No Mask → every 10 seconds)  
+- ✅ Auto Recording (after 10s continuous No Mask)  
 - ✅ Manual Recording toggle (`r` key)  
 - ✅ Beep alert when mask is detected  
 
